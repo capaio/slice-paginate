@@ -1,5 +1,7 @@
 # SLICE-PAGINATE
 
+![workflow](https://github.com/capaio/slice-paginate/actions/workflows/test-and-quality.yml/badge.svg)
+
 It returns start and end of slice function for paginating an array
 
 **Example:**
