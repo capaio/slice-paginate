@@ -1,0 +1,15 @@
+name: test-and-quality
+on: [push]
+jobs:
+  test-and-quality:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: cp .env.ci .env
+      - run: yarn install
+      - run: yarn run lint
+      - run: yarn run test
+

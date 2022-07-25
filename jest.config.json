@@ -1,0 +1,16 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "./",
+  "testRegex": "\\.spec.ts$",
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "coverageDirectory": "coverage",
+  "testEnvironment": "node",
+  "watchPathIgnorePatterns": ["coverage"],
+  "testPathIgnorePatterns": ["/test/__helpers__/", "/node_modules/"],
+  "modulePathIgnorePatterns": ["/dist"],
+  "moduleNameMapper": {
+    "src/(.*)": "<rootDir>/$1"
+  }
+}
