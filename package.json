@@ -1,6 +1,6 @@
 {
   "name": "slice-paginate",
-  "description": "It helps to paginate an array returning start and end of slice function to paginate an array",
+  "description": "It helps to paginate an array returning start and end of slice function",
   "author": "Carlo capaio Cappai <carlocappai@gmail.com>",
   "repository": {
     "type": "git",

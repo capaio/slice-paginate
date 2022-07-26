@@ -1,8 +1,7 @@
-# SLICE-PAGINATE
+# slice-paginate [![npm Version](http://img.shields.io/npm/v/slice-paginate.svg?style=flat)](https://www.npmjs.org/package/rampage) ![workflow](https://github.com/capaio/slice-paginate/actions/workflows/test-and-quality.yml/badge.svg)
 
-![workflow](https://github.com/capaio/slice-paginate/actions/workflows/test-and-quality.yml/badge.svg)
 
-It returns start and end of slice function to paginate an array
+> It helps to paginate an array returning start and end of slice function
 
 **Example:**
 
