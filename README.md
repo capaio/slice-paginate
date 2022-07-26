@@ -2,7 +2,7 @@
 
 ![workflow](https://github.com/capaio/slice-paginate/actions/workflows/test-and-quality.yml/badge.svg)
 
-It returns start and end of slice function for paginating an array
+It returns start and end of slice function to paginate an array
 
 **Example:**
 
